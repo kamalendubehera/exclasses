@@ -1,0 +1,45 @@
+@font-face {font-family: 'MyWebFont';src: url('./fonts/Quicksand-Regular.ttf');}
+body {font-family: 'MyWebFont'}
+ul{list-style: none; padding: 0; margin: 0}
+.required{color:red;font-size: 0.8em; margin-left: 2px}
+a:hover, a:focus,a{text-decoration: none;color:inherit}
+input:focus,textarea:focus,select:focus,button:focus{outline: none}
+img{width:100%;height:auto}
+#smallNav{background: #333;color:#fff}
+.navbar{padding-top:5px}
+.contactInfo li{display: inline-block; padding:8px 15px 8px 0}
+.btnGen{background: #2e4056;color: #fff;padding: 6px 20px;border-radius: 5px;border: none;margin-top: 10px;transition:box-shadow 0.3s}
+.btnGen:hover{box-shadow: 3px 3px 8px #555; transition:box-shadow 0.3s}
+.btnBig{padding: 10px 30px;}
+.headDesc{width:85%; margin:auto}
+#compName{font-weight:900;font-size: 1.5em;color:#2e4056}
+#tagLine{font-size: 0.7em; color:#555}
+#myNavbar li{font-size: 1.2em; padding-top:5px}
+#myNavbar li a:hover{background: none; color:#555}
+#bannerMain {background: url('./images/8.jpg'); background-size: cover;background-repeat: no-repeat; height:600px}
+#portfolio{padding-top:80px; padding-bottom: 40px; background: #d8d8d8}
+#whyus .whyusHolder h4,#portfolio h1,#whyus h1,#courses h1, #contact h1,#testimonial h1{font-weight: 900;color:#2e4056}
+#portfolio h3{font-weight: 900; margin-bottom:20px}
+#courses,#whyus{text-align:center; padding-top:40px; padding-bottom:40px}
+#whyus .whyusHolder{margin-top: 30px}
+#whyus .whyusHolder img{padding:30px 30px 10px 30px}
+#whyus .whyusHolder p{text-align: justify}
+#courses{background:#d8d8d8;}
+#courses .courseHolder{margin-top:40px}
+#courses .courseText{padding: 0 15px}
+.contactTop{width:50%;margin:auto}
+#contact .address{background: #7092be; color:#fff; padding:10%}
+#contForm{background: #d3e3f8;}
+#contact .regHolder{padding:25px;text-align: justify}
+form input, form select, form textarea,#footer input{width:100%; border:1px solid #ccc;padding:3px 7px;border-radius:4px; margin-bottom:15px}
+#modalReg .declaration{font-size: 0.8em}
+#modalReg .declaration input{vertical-align: sub}
+#testimonial{margin: 50px auto;}
+#testimonial .testiHolder{padding:30px; box-shadow: 0 0 25px #888; text-align: center;margin: 20px auto}
+#testimonial .testiHolder img{width:70px;height:auto;border-radius:50%; margin:auto}
+#testimonial .testiHolder h5{font-weight: 600; color:#5377a7}
+#testimonial .testiHolder p{font-size: 0.9em}
+#testimonial .testiHolder i{font-size: 0.8em;color:#5377a7}
+#footer{background: #2e4056;color:#fff;padding-top:30px;padding-bottom:10px}
+#footer .btnSubscribe{top: 4px;background: #2e4056;border: none;position: absolute;right: 19px;font-size: 0.85em;border-radius: 3px;padding: 2px 10px;}
+#footer .social li{display:inline-block; margin-right: 25px;font-size: 1.8em}
